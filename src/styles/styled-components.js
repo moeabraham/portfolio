@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+
 export const StyledHeader = styled.header`
 display:flex;
 align-items: center;
@@ -53,3 +54,4 @@ min-height:100vh;
     flex-grow:1;
 }
 `
+

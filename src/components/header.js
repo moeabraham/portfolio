@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import { StyledHeader } from "../styles/styled-components"
 
 
+
 const Header = (props) => (
     <StyledHeader>
         <h1> 
@@ -18,6 +19,9 @@ const Header = (props) => (
                 </li>
                 <li>
                     <Link to="/about">About</Link>
+                </li>
+                <li>
+                    <Link to="/projects">Projects</Link>
                 </li>
 
             </ul>
