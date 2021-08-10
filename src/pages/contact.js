@@ -1,10 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
+import Head from "../components/head"
 
 const Contact = () => {
 
     return (
         <Layout>
+            <Head page="Contact" />
             <h1>Contact</h1>
             <form data-netlify="true" method="POST" name="contact">
                 <input type="hidden" name="form-name" value="contact" />
