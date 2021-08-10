@@ -20,6 +20,7 @@ const Contact = () => {
                     Messages
                     <textarea name="message" placeholder="Hey what's up ?" ></textarea>
                 </label>
+                <input type="submit" value="Contact Me!" />
             </form>
         </Layout>
     )
