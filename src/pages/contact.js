@@ -13,11 +13,9 @@ const Contact = () => {
 
 
     const encode = (data) => {
-
-        return Object.keys(data).map(key => (
-
-            `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
-        )).join('&')
+        const { name, email, message } = data
+        retuen `form-name=contact&name=${encodeURIComponent(formState.name)}&email=${encodeURIComponent(formState.email)}&message=${encodeURIComponent(formState.message)}`
+        
     }
 
     const handleChange = (e) => {
@@ -31,7 +29,7 @@ const Contact = () => {
             headers: {
                 'content-type': 'application/x-www-form-urlencoded'
             },
-            body: `form-name=contact&name=${encodeURIComponent(formState.name)}&email=${encodeURIComponent(formState.email)}&message=${encodeURIComponent(formState.message)}`
+            body: encode(formState)
         })
 
         setFormState({
