@@ -4,20 +4,20 @@
         "description" : "This was my first project",
         "githubLink": "https://github.com",
         "deployedLink": "https://supercoolsite.com",
-        "image": "../images/image-one.png"
+        "image": "images/image-one.png"
     },
     {
         "title" : "Second Project",
         "description" : "This was my second project",
         "githubLink": "https://github.com",
         "deployedLink": "https://supercoolsite.com",
-        "image": "../images/image-one.png"
+        "image": "images/image-two.png"
     },
     {
         "title" : "Third Project",
         "description" : "This was my third project",
         "githubLink": "https://github.com",
         "deployedLink": "https://supercoolsite.com",
-        "image": "../images/image-one.png"
+        "image": "images/image-three.png"
     }
 ]

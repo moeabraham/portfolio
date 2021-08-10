@@ -20,10 +20,10 @@ const Head = ({  page }) => {
 
     return (
         <Helmet>
-        <title> {`${page} | ${title}`}</title>
-        <meta name="description" content={description} />
+            <title> {`${page} | ${title}`}</title>
+            <meta name="description" content={description} />
 
-    </Helmet>
+        </Helmet>
 
 
     )
