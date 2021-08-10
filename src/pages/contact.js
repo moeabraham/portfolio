@@ -13,11 +13,10 @@ const Contact = () => {
 
 
     const encode = (data) => {
-        const { name, email, message } = data
-        retuen `form-name=contact&name=${encodeURIComponent(formState.name)}&email=${encodeURIComponent(formState.email)}&message=${encodeURIComponent(formState.message)}`
-        
-    }
-
+        const {name, email, message} = data
+        return `form-name=contact&name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}&message=${encodeURIComponent(message)}`
+      }
+  
     const handleChange = (e) => {
         setFormState({...formState, [e.target.name]: e.target.value})
     }
