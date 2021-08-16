@@ -1,3 +1,6 @@
+require('dotenv').config()
+
+
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
@@ -10,6 +13,13 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-styled-components",
     "gatsby-plugin-sitemap",
+    {
+      resolve: "gatsby-source-contentful",
+      options:{
+        spaceId:"e3yqezmipk93",
+        accessToken:"9IVHGK8uj931Zob5Q0D-Sde7AOyqC72p594hRVa5b2Q",
+      }
+    },
     {
       resolve: "gatsby-plugin-manifest",
       options: {
