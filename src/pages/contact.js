@@ -2,6 +2,8 @@ import React,{ useState } from "react"
 import Layout from "../components/layout"
 import Head from "../components/head"
 import { navigate } from "gatsby-link"
+import "./contact.css"
+
 
 const Contact = () => {
 
@@ -47,21 +49,21 @@ const Contact = () => {
         <Layout>
             <Head page="Contact" />
             <h1>Contact</h1>
-            <form data-netlify="true" onSubmit={handleSubmit} name="contact">
-                <input type="hidden" name="form-name" value="contact" />
+            <form data-netlify="true" onSubmit={handleSubmit} name="contact" class="form-group col-md-6 more-spacing"  >
+                <input type="hidden" name="form-name" value="contact"  />
                 <label>
                     Name
-                    <input type="text" name="name" placeholder="Johnny Appleseed" onChange={handleChange} value={formState.name}/>
+                    <input class="form-control col-md-6 more-spacing" type="text" name="name" placeholder="Johnny Appleseed" onChange={handleChange} value={formState.name}/>
                 </label>
                 <label>
                     Email
-                    <input type="email" name="email" placeholder="Johnny@aapple.com" onChange={handleChange}  value={formState.email} />
+                    <input class="form-control col-md-6 more-spacing" type="email" name="email" placeholder="Johnny@aapple.com" onChange={handleChange}  value={formState.email} />
                 </label>
                 <label>
-                    Messages
+                    
                     <textarea name="message" placeholder="Hey what's up ?" onChange={handleChange} value={formState.message} ></textarea>
                 </label>
-                <input type="submit" value="Contact Me!" />
+                <input class="form-control col-md-6 more-spacing" type="submit" value="Contact Me!" />
             </form>
         </Layout>
     )

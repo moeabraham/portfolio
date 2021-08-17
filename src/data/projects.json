@@ -1,23 +1,30 @@
 [
     {
-        "title" : "First Project",
+        "title" : "Soccer Team Data",
         "description" : "This was my first project",
-        "githubLink": "https://github.com",
-        "deployedLink": "https://supercoolsite.com",
+        "githubLink": "https://github.com/moeabraham/module-1-proj",
+        "deployedLink": "https://moeabraham.github.io/module-1-proj/",
         "image": "images/image-one.png"
     },
     {
-        "title" : "Second Project",
+        "title" : "Activity Tracker",
         "description" : "This was my second project",
-        "githubLink": "https://github.com",
-        "deployedLink": "https://supercoolsite.com",
+        "githubLink": "https://github.com/moeabraham/Activity-Tracker-Project",
+        "deployedLink": "https://activity-project-unit.herokuapp.com/",
         "image": "images/image-two.png"
     },
     {
-        "title" : "Third Project",
+        "title" : "Music Data",
         "description" : "This was my third project",
-        "githubLink": "https://github.com",
-        "deployedLink": "https://supercoolsite.com",
+        "githubLink": "https://github.com/moeabraham/proj3",
+        "deployedLink": "https://musicdata.netlify.app",
         "image": "images/image-three.png"
+    },
+    {
+        "title" : "Moov",
+        "description" : "This was my Fourth project",
+        "githubLink": "https://github.com/moeabraham/moov-app",
+        "deployedLink": "https://cfc-moov.herokuapp.com/",
+        "image": "images/image-five.png"
     }
 ]
