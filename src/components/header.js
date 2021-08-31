@@ -19,21 +19,21 @@ const Header = (props) => (
                 <li>
                     <Link to="/">Home</Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to="/about">About</Link>
-                </li>
+                </li> */}
                 <li>
                     <Link to="/projects">Projects</Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to="/blog">Blog</Link>
-                </li>
+                </li> */}
                 <li>
                     <Link to="/contact">Contact Me!</Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to="/tutorials">Tutorials</Link>
-                </li>
+                </li> */}
 
             </ul>
         </nav>
