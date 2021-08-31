@@ -9,13 +9,14 @@ import '../utils/font-awesome';
 
 const Header = (props) => (
     <StyledHeader>
-        <h1> 
+        <nav class="fixed-top"> 
+        <h1 class="left-nav mr-auto" > 
             <Link to="/">
                   Mohamed Nagy
             </Link>
         </h1>
-        <nav>
-            <ul>
+        {/* <nav> */}
+            <ul class="right-nav ml-auto">
                 <li>
                     <Link to="/">Home</Link>
                 </li>

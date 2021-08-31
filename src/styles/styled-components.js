@@ -4,18 +4,27 @@ import styled from "styled-components"
 export const StyledHeader = styled.header`
 display:flex;
 align-items: center;
-justify-content: space-between;
-background-color: rgb(235, 216, 52);
-color: #fff;
+/* justify-content: space-between; */
+/* background-color: rgb(235, 216, 52); */
+color: black;
 height: 5rem;
 padding: 0 1rem;
-box-shadow: 1px 1px 3px 1px #808080;
+/* box-shadow: 1px 1px 3px 1px #808080; */
+
+
+
+.left-nav{
+    flex-grow: 1;
+}
 a{
     text-decoration: none;
     color: inherit
 }
 h1{
     margin: 0;
+    text-align:left;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
 }
 nav{
     display: flex;
@@ -36,6 +45,8 @@ ul{
         }
     }
 }
+
+
 ` 
 
 export const StyledFooter = styled.footer`
