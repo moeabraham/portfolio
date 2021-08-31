@@ -13,6 +13,7 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-styled-components",
     "gatsby-plugin-sitemap",
+    "gatsby-plugin-fontawesome-css",
     {
       resolve: "gatsby-source-contentful",
       options:{

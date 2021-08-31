@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import { StyledHeader } from "../styles/styled-components"
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import '../utils/font-awesome';
 
 
 const Header = (props) => (

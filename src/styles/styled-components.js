@@ -55,3 +55,8 @@ min-height:100vh;
 }
 `
 
+export const styledIcons = styled.div`
+
+display:flex;
+
+`
