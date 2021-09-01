@@ -7,7 +7,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faUser, faEdit, faThumbsUp} from '@fortawesome/free-regular-svg-icons'
 import {faListAlt, faCheckSquare} from '@fortawesome/free-regular-svg-icons'
 import {faRedo, faShieldAlt, faGlobe, faAward} from '@fortawesome/free-solid-svg-icons'
-import { faDev, faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faDev, faGithub, faTwitter, faLinkedin, faAnchor } from '@fortawesome/free-brands-svg-icons'
 
 
 
@@ -62,18 +62,27 @@ const IndexPage = () => {
       </div>
 
       <div class="container-fluid sec-projects">
-      <h2 class="row h1">Projects</h2>
+      <h2 class="row h1 font">Projects</h2>
 
         <div>
         </div>
-        <div class="row text-center part-two container-fluid">
+        <div class="row text-center part-two container-fluid ">
 
-      <div class="col-md-4 mb-4">
+      <div class="col-md-4 mb-4 ">
 
 
-       <a href="https://moeabraham.github.io/module-1-proj/"> <img class="rounded-circle border border-primary border-4 imgfit" alt="100x100" src="images/sport.png"
+       <a href="https://moeabraham.github.io/soccerdataapi/"> <img class="rounded-circle border border-primary border-4 imgfit" alt="100x100" src="images/sport.png"
           data-holder-rendered="true" /> </a>
-        <h2 class="my-5 h2">Soccer Team Data</h2>
+          <article class="proj-article"> 
+          <div>  
+            <a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/> </a> 
+            
+            </div>
+          <div><a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/> </a></div>
+
+          </article>
+          
+        <h2 class="my-2 h2 proj-font">Soccer Team Data</h2>
 
       </div>
       <div class="col-md-4 mb-4">
@@ -81,7 +90,16 @@ const IndexPage = () => {
 
        <a href="https://activity-project-unit.herokuapp.com/"> <img class="rounded-circle z-depth-2 border border-success border-4 imgfit" alt="100x100" src="images/activity.png"
           data-holder-rendered="true" /></a>
-                  <h2 class="my-5 h2 ">Activity Tracker</h2>
+          <article class="proj-article"> 
+          <div>  
+            <a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/> </a> 
+            
+            </div>
+          <div><a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/> </a></div>
+
+          </article>
+          
+            <h2 class="my-2 h2 proj-font">Activity Tracker</h2>
 
 
       </div>
@@ -90,15 +108,34 @@ const IndexPage = () => {
 
        <a href="https://musicdata.netlify.app"> <img class="rounded-circle border border-danger border-4 imgfit" alt="100x100" src="images/music.png"
           data-holder-rendered="true" /></a>
-        <h2 class="my-5 h2">Music Data</h2>
+
+<article class="proj-article"> 
+          <div>  
+            <a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/> </a> 
+            
+            </div>
+          <div><a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/> </a></div>
+
+          </article>
+          
+        <h2 class="my-2 h2 proj-font">Music Data</h2>
 
       </div>
-      <div class="col-md-4 mb-4">
+      <div class="col-md-4 mb-4 ">
 
 
 <a href="https://cfc-moov.herokuapp.com/"> <img class="rounded-circle border border-info border-4 imgfit" alt="100x100" src="images/moov.png" 
   data-holder-rendered="true" /> </a>
-<h2 class="my-5 h2">Moov</h2>
+  <article class="proj-article">  
+          <div>  
+            <a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/> </a> 
+            
+            </div>
+          <div><a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/> </a></div>
+
+          </article>
+          
+<h2 class="my-2 h2 proj-font">Moov</h2>
 
 </div>
 
