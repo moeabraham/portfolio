@@ -2,6 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import Head from "../components/head"
 import data from "../data/projects.json"
+// import Header from "../components/header"
+
 import "./index.css"
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faUser, faEdit, faThumbsUp} from '@fortawesome/free-regular-svg-icons'
@@ -15,15 +17,31 @@ import { faDev, faGithub, faTwitter, faLinkedin, faAnchor } from '@fortawesome/f
 // import '../utils/font-awesome';
 
 // import './css/font-awesome.css'
+// const mediaQuery = window.matchMedia('(max-width: 368px)')
+// // Check if the media query is true
+// if (mediaQuery.matches) {
+//   // Then trigger an alert
 
+//   const header = document.getElementById("fixed-top")
+//   console.log(header)
+//   header.classList="small"
+  
+//   alert('Media Query Matched!')
+// }
 
 
 const IndexPage = () => {
+
+
+  
+
+
+
   return (
     <Layout>
       <Head page="Home" />
       <div class = "container-fluid   " style={{ display:"flex",  }}>
-        <section class="part-one row">
+        <section class="part-one row my-5">
 
       <div class="left col-s6  " style={{ width:"40%"}}>
     <div class="col-s6" style={{display:"flex", margin:"10px"}}><img src="images/image-four.png" id="img" class="rounded-circle img-fluid border border-primary"  />  </div>
@@ -33,7 +51,7 @@ const IndexPage = () => {
 <div class="right col-s6" style={{width:"60%"}}>
   <div>
 <h1 class="sec-header h1">Hello, I am Moe Abraham!</h1>
-<p class="text">I am a full stack web developer who is kickstarting his coding journey in his early 30's.<br></br> Self motivated and curious with strong analytical skills.<br></br> I have a very diverse professional background as well as personal.<br></br> Can always find time to chat movies, soccer & coding now</p>
+<p class="text">I am a full stack web developer who is kickstarting his coding journey in his early 30's.<br></br> Self motivated and curious with strong analytical skills.<br></br> I have a very diverse professional background as well as personal.<br></br> Can always find time to chat movies, soccer & coding now </p>
 <div class="icons">
 <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faTwitter} size="2x" color="#90CDF4"/></a>
 <a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
@@ -78,7 +96,7 @@ const IndexPage = () => {
             <a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/> </a> 
             
             </div>
-          <div><a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/> </a></div>
+          <div><a href="https://moeabraham.github.io/soccerdataapi"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/> </a></div>
 
           </article>
           

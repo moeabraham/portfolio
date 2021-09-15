@@ -7,6 +7,7 @@ module.exports = {
     title: "Moes portfolio",
     author: " Mohamed Nagy",
     description:"A personal website for Mohamed Nagy"
+    
 
   },
   plugins: [

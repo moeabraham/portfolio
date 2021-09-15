@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 
+
 export const StyledHeader = styled.header`
 display:flex;
 align-items: center;
@@ -11,8 +12,20 @@ height: 5rem;
 padding: 0 1rem;
 /* box-shadow: 1px 1px 3px 1px #808080; */
 
+.smallnav{
+    flex-grow:1
+    width:100vw;
+}
+header{
+    display:flex;
 
+}
 
+.right-nav{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end
+}
 .left-nav{
     flex-grow: 1;
 }
@@ -71,3 +84,6 @@ export const styledIcons = styled.div`
 display:flex;
 
 `
+
+
+

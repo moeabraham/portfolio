@@ -151,3 +151,40 @@ font-family: 'Titillium Web', sans-serif;
   justify-content:center;
   gap:10%
 }
+
+@media (max-width: 368px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  header{
+    display:flex;
+    color:red;
+    flex-direction: column;
+    background-color: lightblue;
+  }
+  .part-one{
+display:flex;
+flex-direction: column;
+  }
+
+  .left{
+    display:flex;
+    align-items:flex-start;
+    /* margin-bottom:150px; */
+  }
+   img {
+    align-self:flex-start;
+  }
+  .left-nav{
+    font-size:20px
+  }
+
+
+
+}
+
+
+.small{
+  display:flex;
+  color:red;
+}
+
+

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from "gatsby"
 
 import { StyledHeader } from "../styles/styled-components"
+import resume from "../../static/resume.pdf"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../utils/font-awesome';
@@ -9,10 +10,10 @@ import '../utils/font-awesome';
 
 const Header = (props) => (
     <StyledHeader>
-        <nav class="fixed-top"> 
+        <nav id="smallnav" class="fixed-top" > 
         <h1 class="left-nav mr-auto" > 
             <Link to="/">
-                  Mohamed Nagy
+                  Moe Abraham
             </Link>
         </h1>
         {/* <nav> */}
@@ -25,6 +26,11 @@ const Header = (props) => (
                 </li> */}
                 <li>
                     <Link to="/projects">Projects</Link>
+                </li>
+
+                <li>
+                    <a href="resume.pdf">Resume</a>
+
                 </li>
                 {/* <li>
                     <Link to="/blog">Blog</Link>
