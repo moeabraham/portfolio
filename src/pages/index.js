@@ -124,7 +124,7 @@ const IndexPage = () => {
       <div class="col-md-4 mb-4">
 
 
-       <a href="https://musicdata.netlify.app"> <img class="rounded-circle border border-danger border-4 imgfit" alt="100x100" src="images/music.png"
+       <a href="https://reactmuzika.netlify.app"> <img class="rounded-circle border border-danger border-4 imgfit" alt="100x100" src="images/music.png"
           data-holder-rendered="true" /></a>
 
 <article class="proj-article"> 
@@ -139,8 +139,9 @@ const IndexPage = () => {
         <h2 class="my-2 h2 proj-font">Music Data</h2>
 
       </div>
-      <div class="col-md-4 mb-4 ">
 
+
+      <div class="col-md-4 mb-4 ">
 
 <a href="https://cfc-moov.herokuapp.com/"> <img class="rounded-circle border border-info border-4 imgfit" alt="100x100" src="images/moov.png" 
   data-holder-rendered="true" /> </a>
@@ -156,6 +157,32 @@ const IndexPage = () => {
 <h2 class="my-2 h2 proj-font">Moov</h2>
 
 </div>
+
+<div class="col-md-4 mb-4 ">
+
+<a href="https://cfc-moov.herokuapp.com/"> <img class="rounded-circle border border-info border-4 imgfit" alt="100x100" src="images/moov.png" 
+  data-holder-rendered="true" /> </a>
+  <article class="proj-article">  
+          <div>  
+            <a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/> </a> 
+            
+            </div>
+          <div><a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/> </a></div>
+
+          </article>
+          
+<h2 class="my-2 h2 proj-font">Soccer cards</h2>
+
+</div>
+
+
+
+
+
+
+
+
+
 
 {/* <div class="col-md-4 mb-4">
 
