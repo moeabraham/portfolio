@@ -10,14 +10,18 @@ import '../utils/font-awesome';
 
 const Header = (props) => (
     <StyledHeader>
-        <nav id="smallnav" class="fixed-top navbar-expand-sm" > 
-        <h1 class="left-nav mr-auto" > 
-            <Link to="/">
-                  Moe Abraham
-            </Link>
-        </h1>
+        {/* fixed-top */}
+        {/* class=" navbar-expand-sm navbar-expand-lg */}
+        <nav  > 
+                <div class="left-nav " > <h1 class="name">
+                    <Link to="/">
+                        Moe Abraham
+                    </Link></h1>
+                </div>
         {/* <nav> */}
-            <ul class="right-nav ml-auto">
+        <div class="right-nav " >
+        {/* class="right-nav " */}
+            <ul >
                 <li>
                     <Link to="/">Home</Link>
                 </li>
@@ -43,6 +47,8 @@ const Header = (props) => (
                 </li> */}
 
             </ul>
+            </div>
+
         </nav>
 
 

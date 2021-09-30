@@ -45,8 +45,14 @@ const IndexPage = () => {
         <section class="part-one row " >
           {/* my-5 */}
       <div class="left col-s6" >
+      {/* <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front"> */}
+    {/* ,width:"300px", height:"300px" */}
     <div class="col-s6" style={{display:"flex", margin:"10px"}}><img src="images/image-four.png" id="img" class="rounded-circle img-fluid border border-primary"  alt="loading" />  </div>
-
+{/* </div>
+</div>
+</div> */}
     </div>
     
 <div class="right col-s6 " >
@@ -54,9 +60,17 @@ const IndexPage = () => {
 <h1 class="sec-header h1">Hello, I am Moe Abraham!</h1>
 <p class="text">I am a full stack web developer who is kickstarting his coding journey in his early 30's.<br></br> Self motivated and curious with strong analytical skills.<br></br> I have a very diverse professional background as well as personal.<br></br> Can always find time to chat movies, soccer & coding now </p>
 <div class="icons">
-<a href="https://twitter.com/home"> <FontAwesomeIcon icon={faTwitter} size="2x" color="#90CDF4"/></a>
-<a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
-<a href="https://www.linkedin.com/in/moeabraham/"> <FontAwesomeIcon icon={faLinkedin} size="2x" color="#90CDF4"/></a>
+  <div class="iconanimation">
+  <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faTwitter} size="2x" color="#90CDF4"/></a>
+</div>
+  <div class="iconanimation">
+  <a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
+</div>
+  <div class="iconanimation">
+  <a href="https://www.linkedin.com/in/moeabraham/"> <FontAwesomeIcon icon={faLinkedin} size="2x" color="#90CDF4"/></a>
+</div>
+{/* <a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
+<a href="https://www.linkedin.com/in/moeabraham/"> <FontAwesomeIcon icon={faLinkedin} size="2x" color="#90CDF4"/></a> */}
 </div>
 
 
@@ -171,7 +185,7 @@ const IndexPage = () => {
 
           </article>
           
-<h2 class="my-2 h2 proj-font">Soccer cards</h2>
+<h2 class="my-2 h2 proj-font">Soccer cards<h4 style={{color:"red"}}>recent deployment issues with Django, runs locally <h6>(Sep,30th,2021)</h6></h4></h2>
 
 </div>
 
@@ -197,6 +211,20 @@ const IndexPage = () => {
   </div>
 
   {/* </section> */}
+
+{/* 
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images/image-four.png" alt="Avatar" style={{width:"300px",height:"300px"}}/>
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div> */}
 
 
 
