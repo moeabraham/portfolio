@@ -1,15 +1,16 @@
 import React from "react"
 import Layout from "../components/layout"
 import Head from "../components/head"
-import data from "../data/projects.json"
+// import data from "../data/projects.json"
 // import Header from "../components/header"
 
 import "./index.css"
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faUser, faEdit, faThumbsUp} from '@fortawesome/free-regular-svg-icons'
-import {faListAlt, faCheckSquare} from '@fortawesome/free-regular-svg-icons'
-import {faRedo, faShieldAlt, faGlobe, faAward} from '@fortawesome/free-solid-svg-icons'
-import { faDev, faGithub, faTwitter, faLinkedin, faAnchor } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import {faUser, faEdit, faThumbsUp} from '@fortawesome/free-regular-svg-icons'
+// import {faListAlt, faCheckSquare} from '@fortawesome/free-regular-svg-icons'
+// import {faRedo, faShieldAlt, faGlobe, faAward, faDev,faAnchor} from '@fortawesome/free-solid-svg-icons'
+import { faGlobe} from '@fortawesome/free-solid-svg-icons'
+import {  faGithub, faTwitter, faLinkedin,  } from '@fortawesome/free-brands-svg-icons'
 
 
 
@@ -40,15 +41,15 @@ const IndexPage = () => {
   return (
     <Layout>
       <Head page="Home" />
-      <div class = "container-fluid   " style={{ display:"flex",  }}>
-        <section class="part-one row my-5">
-
-      <div class="left col-s6  " style={{ width:"40%"}}>
-    <div class="col-s6" style={{display:"flex", margin:"10px"}}><img src="images/image-four.png" id="img" class="rounded-circle img-fluid border border-primary"  />  </div>
+      <div class = "container-fluid " >
+        <section class="part-one row " >
+          {/* my-5 */}
+      <div class="left col-s6" >
+    <div class="col-s6" style={{display:"flex", margin:"10px"}}><img src="images/image-four.png" id="img" class="rounded-circle img-fluid border border-primary"  alt="loading" />  </div>
 
     </div>
     
-<div class="right col-s6" style={{width:"60%"}}>
+<div class="right col-s6 " >
   <div>
 <h1 class="sec-header h1">Hello, I am Moe Abraham!</h1>
 <p class="text">I am a full stack web developer who is kickstarting his coding journey in his early 30's.<br></br> Self motivated and curious with strong analytical skills.<br></br> I have a very diverse professional background as well as personal.<br></br> Can always find time to chat movies, soccer & coding now </p>
@@ -68,7 +69,6 @@ const IndexPage = () => {
 
 </div>
 
-
         </section>
 
       
@@ -78,7 +78,7 @@ const IndexPage = () => {
       <hr ></hr>
 
       </div>
-
+{/* <section> */}
       <div class="container-fluid sec-projects">
       <h2 class="row h1 font">Projects</h2>
 
@@ -183,7 +183,6 @@ const IndexPage = () => {
 
 
 
-
 {/* <div class="col-md-4 mb-4">
 
 
@@ -197,6 +196,7 @@ const IndexPage = () => {
 
   </div>
 
+  {/* </section> */}
 
 
 

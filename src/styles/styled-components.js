@@ -59,6 +59,15 @@ ul{
     }
 }
 
+@media only screen and (max-width: 400px) {
+        color:red;
+        background-color:white;
+        font-size:1rem
+        display:flex;
+
+}
+
+
 
 ` 
 
@@ -67,6 +76,7 @@ display:flex;
 align-items: center;
 justify-content: center;
 height: 5rem;
+margin-top:15rem;
 `
 
 export const StyledLayout = styled.div`

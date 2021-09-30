@@ -2,15 +2,15 @@ import React from 'react'
 import { Link } from "gatsby"
 
 import { StyledHeader } from "../styles/styled-components"
-import resume from "../../static/resume.pdf"
+// import resume from "../../static/resume.pdf"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../utils/font-awesome';
 
 
 const Header = (props) => (
     <StyledHeader>
-        <nav id="smallnav" class="fixed-top" > 
+        <nav id="smallnav" class="fixed-top navbar-expand-sm" > 
         <h1 class="left-nav mr-auto" > 
             <Link to="/">
                   Moe Abraham
