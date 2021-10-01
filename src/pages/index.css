@@ -212,7 +212,7 @@ font-family: 'Titillium Web', sans-serif;
 
 
 
-@media (max-width: 368px) {
+@media (max-width: 768px) {
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
   header{
     display:flex;

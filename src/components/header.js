@@ -28,9 +28,9 @@ const Header = (props) => (
                 {/* <li>
                     <Link to="/about">About</Link>
                 </li> */}
-                <li>
+                {/* <li>
                     <Link to="/projects">Projects</Link>
-                </li>
+                </li> */}
 
                 <li>
                     <a href="resume.pdf">Resume</a>
