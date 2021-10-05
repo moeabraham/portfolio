@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import Head from "../components/head"
 // import data from "../data/projects.json"
 // import Header from "../components/header"
-
+import {profile} from "../../static/images/profile.png"
 import "./index.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import {faUser, faEdit, faThumbsUp} from '@fortawesome/free-regular-svg-icons'
@@ -49,7 +49,7 @@ const IndexPage = () => {
   <div class="flip-card-inner">
     <div class="flip-card-front"> */}
     {/* ,width:"300px", height:"300px" */}
-    <div class="col-s6" style={{display:"flex", margin:"10px"}}><img src="../../static/images/profile.png" id="img" class="rounded-circle img-fluid border border-primary"  alt="loading" />  </div>
+    <div class="col-s6" style={{display:"flex", margin:"10px"}}><img src="/images/profile.png" id="img" class="rounded-circle img-fluid border border-primary"  alt="loading" />  </div>
 {/* </div>
 </div>
 </div> */}
