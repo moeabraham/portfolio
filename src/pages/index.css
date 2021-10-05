@@ -315,7 +315,7 @@ width:100vw;
 }
 .row> .card-sec{
   width:100%;
-  margin-bottom:1rem;
+  /* margin-bottom:1rem; */
 }
 /* .card-sec{
 flex:1;
@@ -325,6 +325,8 @@ h2{
   display:flex;
   justify-content:center;
   align-items:center;
+  color:white;
+  margin-top:1rem;
   }
   .sec-icons{
     display:flex;
@@ -453,15 +455,80 @@ h2{
   svg{
     align-items:center;
     margin-top:40px;
+
   }
 
   .sec-icons > a > svg{
     margin-top:1rem;;
+    color:white;
   }
+
+
   .card-sec > div >  img{
     margin-bottom:1rem;
   }
 
   .socbg{
-    
+background-color:#a2ffc5;
   }
+  .socbg > .card{
+    background-color:#a2ffc5;
+
+  }
+
+
+.activbg{
+  background-color:#ffa8a6;
+}
+
+.activbg > .card{
+  background-color:#ffa8a6;
+
+}
+
+
+
+.muzikbg{
+  background-color:#88cdff;
+
+}
+
+.muzikbg > .card{
+  background-color:#88cdff;
+
+}
+
+
+.moovbg{
+  background-color:#ffe7a1;
+
+}
+
+.moovbg > .card{
+  background-color:#ffe7a1;
+
+}
+
+
+ .animate {
+  animation: color-change 4s infinite;
+}
+
+@keyframes color-change {
+  0% { color: #88cdff; }
+   25%{color:black}
+   /* 50% { color: #ffe7a1; }  */
+  100% { color: #ffe7a1; } 
+ 
+} 
+
+.animate{
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* color:red; */
+    /* font-family: 'Noto Sans Display', sans-serif; */
+    /* font-family: 'Noto Sans Display', sans-serif; */
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-family: 'Merriweather', serif;  font-family: 'Lato', sans-serif;
+}

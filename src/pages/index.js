@@ -65,15 +65,15 @@ const IndexPage = () => {
       <hr ></hr>
 
       </div>
-<h1 class="mb-2">Projects</h1>
+<h1 class="mb-2 animate ">Projects</h1>
 
       <div class="second">
         <div class="row"> 
           <div class="card-sec socbg" >
               <h2>Soccer Data</h2>
-                  <div class="sec-icons">
-                      <a href="https://github.com/moeabraham/soccerdataapi"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
-                      <a href="https://moeabraham.github.io/soccerdataapi/"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
+                  <div class="sec-icons ">
+                      <a href="https://github.com/moeabraham/soccerdataapi" class="iconanimation"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
+                      <a href="https://moeabraham.github.io/soccerdataapi/" class="iconanimation"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
                   </div>
 
   
@@ -91,8 +91,8 @@ const IndexPage = () => {
             <div class="card-sec activbg" >
                 <h2>Activity Tracker</h2>
                 <div class="sec-icons">
-                        <a href="https://github.com/moeabraham/Activity-Tracker-Project"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
-                        <a href="https://activity-project-unit.herokuapp.com/"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
+                        <a href="https://github.com/moeabraham/Activity-Tracker-Project" class="iconanimation"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
+                        <a href="https://activity-project-unit.herokuapp.com/" class="iconanimation"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
                 </div>
 
 
@@ -104,12 +104,12 @@ const IndexPage = () => {
             </div>
             
         </div>
-        <div class="row mt-4"> 
+        <div class="row "> 
           <div class="card-sec muzikbg" >
               <h2>Muzika</h2>
                   <div class="sec-icons">
-                      <a href="https://github.com/moeabraham/Muzika-FE"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
-                      <a href="https://reactmuzika.netlify.app/"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
+                      <a href="https://github.com/moeabraham/Muzika-FE" class="iconanimation"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
+                      <a href="https://reactmuzika.netlify.app/" class="iconanimation"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
                   </div>
 
   
@@ -124,11 +124,11 @@ const IndexPage = () => {
 
 
           </div>
-            <div class="card-sec" >
+            <div class="card-sec moovbg" >
                 <h2>moov</h2>
                 <div class="sec-icons moovbg">
-                        <a href="https://github.com/cardioforcake/portfolio-project-moov-app"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
-                        <a href="https://cfc-moov.herokuapp.com/"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
+                        <a href="https://github.com/cardioforcake/portfolio-project-moov-app" class="iconanimation"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
+                        <a href="https://cfc-moov.herokuapp.com/" class="iconanimation"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
                 </div>
 
 
