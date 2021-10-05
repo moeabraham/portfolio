@@ -69,7 +69,7 @@ const IndexPage = () => {
 
       <div class="second">
         <div class="row"> 
-          <div class="card-sec" >
+          <div class="card-sec socbg" >
               <h2>Soccer Data</h2>
                   <div class="sec-icons">
                       <a href="https://github.com/moeabraham/soccerdataapi"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
@@ -88,7 +88,7 @@ const IndexPage = () => {
 
 
           </div>
-            <div class="card-sec" >
+            <div class="card-sec activbg" >
                 <h2>Activity Tracker</h2>
                 <div class="sec-icons">
                         <a href="https://github.com/moeabraham/Activity-Tracker-Project"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
@@ -105,7 +105,7 @@ const IndexPage = () => {
             
         </div>
         <div class="row mt-4"> 
-          <div class="card-sec" >
+          <div class="card-sec muzikbg" >
               <h2>Muzika</h2>
                   <div class="sec-icons">
                       <a href="https://github.com/moeabraham/Muzika-FE"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
@@ -126,7 +126,7 @@ const IndexPage = () => {
           </div>
             <div class="card-sec" >
                 <h2>moov</h2>
-                <div class="sec-icons">
+                <div class="sec-icons moovbg">
                         <a href="https://github.com/cardioforcake/portfolio-project-moov-app"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
                         <a href="https://cfc-moov.herokuapp.com/"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
                 </div>

@@ -209,7 +209,8 @@ font-family: 'Titillium Web', sans-serif;
 .sec-icons{
   display:flex;
   flex:1;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items:center;
 
 }
 
@@ -447,7 +448,16 @@ h2{
     /* font-family: 'Merriweather', serif;  font-family: 'Lato', sans-serif; */
   
   }
+
+  
   svg{
     align-items:center;
-    margin-top:40px
+    margin-top:40px;
+  }
+
+  .sec-icons > a > svg{
+    margin-top:1rem;;
+  }
+  .card-sec > div >  img{
+    margin-bottom:1rem;
   }
