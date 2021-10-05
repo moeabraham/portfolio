@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 import Head from "../components/head"
 // import data from "../data/projects.json"
 // import Header from "../components/header"
-import {profile} from "../../static/images/profile.png"
 import "./index.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import {faUser, faEdit, faThumbsUp} from '@fortawesome/free-regular-svg-icons'
@@ -13,22 +12,6 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import {  faGithub, faTwitter, faLinkedin,  } from '@fortawesome/free-brands-svg-icons'
 
 
-
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import '../utils/font-awesome';
-
-// import './css/font-awesome.css'
-// const mediaQuery = window.matchMedia('(max-width: 368px)')
-// // Check if the media query is true
-// if (mediaQuery.matches) {
-//   // Then trigger an alert
-
-//   const header = document.getElementById("fixed-top")
-//   console.log(header)
-//   header.classList="small"
-  
-//   alert('Media Query Matched!')
-// }
 
 
 const IndexPage = () => {
@@ -43,16 +26,8 @@ const IndexPage = () => {
       <Head page="Home" />
       <div class = "container-fluid " >
         <section class="part-one row " >
-          {/* my-5 */}
       <div class="left col-s6" >
-      {/* <div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front"> */}
-    {/* ,width:"300px", height:"300px" */}
     <div class="col-s6" style={{display:"flex", margin:"10px"}}><img src="/images/profile.png" id="img" class="rounded-circle img-fluid border border-primary"  alt="loading" />  </div>
-{/* </div>
-</div>
-</div> */}
     </div>
     
 <div class="right col-s6 " >
@@ -69,8 +44,6 @@ const IndexPage = () => {
   <div class="iconanimation">
   <a href="https://www.linkedin.com/in/moeabraham/"> <FontAwesomeIcon icon={faLinkedin} size="2x" color="#90CDF4"/></a>
 </div>
-{/* <a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
-<a href="https://www.linkedin.com/in/moeabraham/"> <FontAwesomeIcon icon={faLinkedin} size="2x" color="#90CDF4"/></a> */}
 </div>
 
 
@@ -167,42 +140,6 @@ const IndexPage = () => {
             </div>
             
         </div>
-        {/* <div class="row"> 
-          <div class="card-sec" >
-              <h2>Soccer Data</h2>
-                  <div class="sec-icons">
-                      <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
-                      <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
-                  </div>
-          </div>
-          <div class="card-sec" >
-              <h2>Activity Tracker</h2>
-              <div class="sec-icons">
-                      <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
-                      <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
-                  </div>
-
-          </div>
-            
-        </div>
-        <div class="row"> 
-          <div class="card-sec" >
-              <h2>Soccer Data</h2>
-                  <div class="sec-icons">
-                      <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
-                      <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
-                  </div>
-          </div>
-          <div class="card-sec" >
-              <h2>Activity Tracker</h2>
-              <div class="sec-icons">
-                      <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
-                      <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
-                  </div>
-
-          </div>
-            
-        </div> */}
       </div>
     </Layout>
   )
