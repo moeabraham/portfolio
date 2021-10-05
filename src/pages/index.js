@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import {faUser, faEdit, faThumbsUp} from '@fortawesome/free-regular-svg-icons'
 // import {faListAlt, faCheckSquare} from '@fortawesome/free-regular-svg-icons'
 // import {faRedo, faShieldAlt, faGlobe, faAward, faDev,faAnchor} from '@fortawesome/free-solid-svg-icons'
-import { faGlobe} from '@fortawesome/free-solid-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import {  faGithub, faTwitter, faLinkedin,  } from '@fortawesome/free-brands-svg-icons'
 
 
@@ -49,7 +49,7 @@ const IndexPage = () => {
   <div class="flip-card-inner">
     <div class="flip-card-front"> */}
     {/* ,width:"300px", height:"300px" */}
-    <div class="col-s6" style={{display:"flex", margin:"10px"}}><img src="images/image-four.png" id="img" class="rounded-circle img-fluid border border-primary"  alt="loading" />  </div>
+    <div class="col-s6" style={{display:"flex", margin:"10px"}}><img src="images/profile.png" id="img" class="rounded-circle img-fluid border border-primary"  alt="loading" />  </div>
 {/* </div>
 </div>
 </div> */}
@@ -88,149 +88,151 @@ const IndexPage = () => {
       
 
       </div>
-      <div class="divider mt-2 mb-3 primary">
+      <div class=" mt-3 mb-3 line " style={{display:"flex"}}>
       <hr ></hr>
 
       </div>
-{/* <section> */}
-      <div class="container-fluid sec-projects">
-      <h2 class="row h1 font">Projects</h2>
+<h1 class="mb-2">Projects</h1>
 
-        <div>
+      <div class="second">
+        <div class="row"> 
+          <div class="card-sec" >
+              <h2>Soccer Data</h2>
+                  <div class="sec-icons">
+                      <a href="https://github.com/moeabraham/soccerdataapi"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
+                      <a href="https://moeabraham.github.io/soccerdataapi/"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
+                  </div>
+
+  
+          <div class="card" style={{width: "18rem"}}>
+            <img  src="/images/soccer.png" alt="Loading..." style={{height:"12rem"}} />
+          </div>
+
+
+
+
+
+
+
+          </div>
+            <div class="card-sec" >
+                <h2>Activity Tracker</h2>
+                <div class="sec-icons">
+                        <a href="https://github.com/moeabraham/Activity-Tracker-Project"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
+                        <a href="https://activity-project-unit.herokuapp.com/"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
+                </div>
+
+
+                <div class="card" style={{width: "18rem"}}>
+                <img  src="/images/todo2.png" alt="Loading..."  style={{height:"12rem"}}/>
+            </div>
+
+
+            </div>
+            
         </div>
-        <div class="row text-center part-two container-fluid ">
+        <div class="row mt-4"> 
+          <div class="card-sec" >
+              <h2>Muzika</h2>
+                  <div class="sec-icons">
+                      <a href="https://github.com/moeabraham/Muzika-FE"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
+                      <a href="https://reactmuzika.netlify.app/"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
+                  </div>
 
-      <div class="col-md-4 mb-4 ">
+  
+          <div class="card" style={{width: "18rem"}}>
+            <img  src="/images/cassette.png" alt="Loading..." style={{height:"12rem"}} />
+          </div>
 
 
-       <a href="https://moeabraham.github.io/soccerdataapi/"> <img class="rounded-circle border border-primary border-4 imgfit" alt="100x100" src="images/sport.png"
-          data-holder-rendered="true" /> </a>
-          <article class="proj-article"> 
-          <div>  
-            <a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/> </a> 
-            
+
+
+
+
+
+          </div>
+            <div class="card-sec" >
+                <h2>moov</h2>
+                <div class="sec-icons">
+                        <a href="https://github.com/cardioforcake/portfolio-project-moov-app"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
+                        <a href="https://cfc-moov.herokuapp.com/"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
+                </div>
+
+
+                <div class="card" style={{width: "18rem"}}>
+                <img  src="/images/truck.png" alt="Loading..."  style={{height:"12rem"}}/>
             </div>
-          <div><a href="https://moeabraham.github.io/soccerdataapi"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/> </a></div>
 
-          </article>
-          
-        <h2 class="my-2 h2 proj-font">Soccer Team Data</h2>
 
+            </div>
+            
+        </div>
+        {/* <div class="row"> 
+          <div class="card-sec" >
+              <h2>Soccer Data</h2>
+                  <div class="sec-icons">
+                      <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
+                      <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
+                  </div>
+          </div>
+          <div class="card-sec" >
+              <h2>Activity Tracker</h2>
+              <div class="sec-icons">
+                      <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
+                      <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
+                  </div>
+
+          </div>
+            
+        </div>
+        <div class="row"> 
+          <div class="card-sec" >
+              <h2>Soccer Data</h2>
+                  <div class="sec-icons">
+                      <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
+                      <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
+                  </div>
+          </div>
+          <div class="card-sec" >
+              <h2>Activity Tracker</h2>
+              <div class="sec-icons">
+                      <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
+                      <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
+                  </div>
+
+          </div>
+            
+        </div> */}
       </div>
-      <div class="col-md-4 mb-4">
-
-
-       <a href="https://activity-project-unit.herokuapp.com/"> <img class="rounded-circle z-depth-2 border border-success border-4 imgfit" alt="100x100" src="images/activity.png"
-          data-holder-rendered="true" /></a>
-          <article class="proj-article"> 
-          <div>  
-            <a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/> </a> 
-            
-            </div>
-          <div><a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/> </a></div>
-
-          </article>
-          
-            <h2 class="my-2 h2 proj-font">Activity Tracker</h2>
-
-
-      </div>
-      <div class="col-md-4 mb-4">
-
-
-       <a href="https://reactmuzika.netlify.app"> <img class="rounded-circle border border-danger border-4 imgfit" alt="100x100" src="images/music.png"
-          data-holder-rendered="true" /></a>
-
-<article class="proj-article"> 
-          <div>  
-            <a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/> </a> 
-            
-            </div>
-          <div><a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/> </a></div>
-
-          </article>
-          
-        <h2 class="my-2 h2 proj-font">Music Data</h2>
-
-      </div>
-
-
-      <div class="col-md-4 mb-4 ">
-
-<a href="https://cfc-moov.herokuapp.com/"> <img class="rounded-circle border border-info border-4 imgfit" alt="100x100" src="images/moov.png" 
-  data-holder-rendered="true" /> </a>
-  <article class="proj-article">  
-          <div>  
-            <a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/> </a> 
-            
-            </div>
-          <div><a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/> </a></div>
-
-          </article>
-          
-<h2 class="my-2 h2 proj-font">Moov</h2>
-
-</div>
-
-<div class="col-md-4 mb-4 ">
-
-<a href="https://cfc-moov.herokuapp.com/"> <img class="rounded-circle border border-info border-4 imgfit" alt="100x100" src="images/moov.png" 
-  data-holder-rendered="true" /> </a>
-  <article class="proj-article">  
-          <div>  
-            <a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/> </a> 
-            
-            </div>
-          <div><a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/> </a></div>
-
-          </article>
-          
-<h2 class="my-2 h2 proj-font">Soccer cards<h4 style={{color:"red"}}>recent deployment issues with Django, runs locally <h6>(Sep,30th,2021)</h6></h4></h2>
-
-</div>
-
-
-
-
-
-
-
-
-
-{/* <div class="col-md-4 mb-4">
-
-
-<a href="https://cfc-moov.herokuapp.com/"> <img class="rounded-circle border border-info border-4 imgfit" alt="100x100" src="images/moov.png" 
-  data-holder-rendered="true" /> </a>
-<h2 class="my-5 h2">Cards Collector</h2>
-
-</div> */}
-
-    </div>
-
-  </div>
-
-  {/* </section> */}
-
-{/* 
-  <div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="images/image-four.png" alt="Avatar" style={{width:"300px",height:"300px"}}/>
-    </div>
-    <div class="flip-card-back">
-      <h1>John Doe</h1> 
-      <p>Architect & Engineer</p> 
-      <p>We love that guy</p>
-    </div>
-  </div>
-</div> */}
-
-
-
-      
     </Layout>
   )
 }
 
 export default IndexPage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

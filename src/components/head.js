@@ -22,6 +22,8 @@ const Head = ({  page }) => {
         <Helmet>
             <title> {`${page} | ${title}`}</title>
             <meta name="description" content={description} />
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+
 
         </Helmet>
 
