@@ -333,6 +333,16 @@ h2{
     justify-content:space-evenly ;
   }
 
+.langicons{
+  color:white;
+  margin: auto;
+  display: flex;
+    justify-content: center;
+    margin: auto;
+    min-height: 2rem;
+    gap: 10%;
+    font-size: 1.5rem
+}
 
 
 
@@ -341,6 +351,7 @@ h2{
   margin: 0;
   border-radius:12%
 }
+
 
 
 
@@ -469,13 +480,13 @@ h2{
   }
 
   .socbg{
-background-color:#a2ffc5;
+background-color:#4cbb76;
   }
   .socbg > .card{
-    background-color:#a2ffc5;
+    background-color:#4cbb76;
 
   }
-
+/* #a2ffc5;#5cb17c */
 
 .activbg{
   background-color:#ffa8a6;

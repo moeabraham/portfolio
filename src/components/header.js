@@ -33,7 +33,7 @@ const Header = (props) => (
                 </li> */}
 
                 <li>
-                    <a href="resume.pdf">Resume</a>
+                    <a href="MoeResume.pdf">Resume</a>
 
                 </li>
                 {/* <li>

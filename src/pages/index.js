@@ -33,7 +33,7 @@ const IndexPage = () => {
 <div class="right col-s6 " >
   <div>
 <h1 class="sec-header h1">Hello, I am Moe Abraham!</h1>
-<p class="text">I am a full stack web developer who is kickstarting his coding journey in his early 30's.<br></br> Self motivated and curious with strong analytical skills.<br></br> I have a very diverse professional background as well as personal.<br></br> Can always find time to chat movies, soccer & coding now </p>
+<p class="text">I am a full stack web developer who loves solving problems, curious to learn more and always exploring new ideas and concepts.<br></br>I have a very diverse professional background as well as personal.<br></br> Can always find time to chat movies, soccer & coding now </p>
 <div class="icons">
   <div class="iconanimation">
   <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faTwitter} size="2x" color="#90CDF4"/></a>
@@ -78,15 +78,16 @@ const IndexPage = () => {
 
   
           <div class="card" style={{width: "18rem"}}>
-            <img  src="/images/soccer.png" alt="Loading..." style={{height:"12rem"}} />
+            <img  src="/images/proj1.png" alt="Loading..." style={{height:"12rem"}} />
           </div>
-
-
-
-
-
-
-
+          <div class="langicons">
+              <i class="devicon-javascript-plain"></i>
+              <i class="devicon-html5-plain"></i>
+              <i class="devicon-css3-plain"></i>
+              <i class="devicon-jquery-plain"></i>
+              <i class="devicon-bootstrap-plain"></i>
+            </div>
+<div> Allows the user to learn more about his favorite soccer team.</div>
           </div>
             <div class="card-sec activbg" >
                 <h2>Activity Tracker</h2>
@@ -97,9 +98,18 @@ const IndexPage = () => {
 
 
                 <div class="card" style={{width: "18rem"}}>
-                <img  src="/images/todo2.png" alt="Loading..."  style={{height:"12rem"}}/>
+                <img  src="/images/proj2.png" alt="Loading..."  style={{height:"12rem"}}/>
             </div>
+                <div class="langicons">
+                          {/* <i class="devicon-nodejs-plain-wordmark"></i> */}
+                          <i class="devicon-javascript-plain"></i>
 
+                          <i class="devicon-nodejs-plain"></i>
+                          <i class="devicon-express-original"></i>
+                          <i class="devicon-mongodb-plain-wordmark"></i>
+
+                </div>
+                <div> A to-do list where user can create/edit/delete his tasks  .</div>
 
             </div>
             
@@ -114,14 +124,16 @@ const IndexPage = () => {
 
   
           <div class="card" style={{width: "18rem"}}>
-            <img  src="/images/cassette.png" alt="Loading..." style={{height:"12rem"}} />
+            <img  src="/images/proj3.png" alt="Loading..." style={{height:"12rem"}} />
           </div>
 
-
-
-
-
-
+          <div class="langicons">
+          <i class="devicon-react-plain"></i>
+          <i class="devicon-mongodb-plain-wordmark"></i>
+          <i class="devicon-express-original"></i>
+          <i class="devicon-nodejs-plain"></i>
+          </div>
+          <div> A Music Library where user can store all his favorite music data .</div>
 
           </div>
             <div class="card-sec moovbg" >
@@ -133,9 +145,15 @@ const IndexPage = () => {
 
 
                 <div class="card" style={{width: "18rem"}}>
-                <img  src="/images/truck.png" alt="Loading..."  style={{height:"12rem"}}/>
-            </div>
-
+                    <img  src="/images/proj4.png" alt="Loading..."  style={{height:"12rem"}}/>
+                 </div>
+                 <div class="langicons">
+                 <i class="devicon-python-plain"></i>
+                 <i class="devicon-django-plain"></i>
+                 <i class="devicon-jquery-plain"></i>
+                 <i class="devicon-postgresql-plain" title="Postgressql" ></i>
+                  </div>
+                  <div> Allows the user to upload a scaled version of his new floorplan to visualize what his furniture would look like in the new space  .</div>
 
             </div>
             
