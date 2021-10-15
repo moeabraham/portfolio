@@ -109,7 +109,7 @@ const IndexPage = () => {
                           <i class="devicon-mongodb-plain-wordmark"></i>
 
                 </div>
-                <div> A to-do list where user can create/edit/delete his tasks  .</div>
+                <div> A server-side to-do list using RESTful routing to perform full crud operations where the user can create/edit/delete his tasks  .</div>
 
             </div>
             
@@ -133,7 +133,7 @@ const IndexPage = () => {
           <i class="devicon-express-original"></i>
           <i class="devicon-nodejs-plain"></i>
           </div>
-          <div> A Music Library where user can store all his favorite music data .</div>
+          <div> A Full Stack Music Library where user can store all his favorite music data created using the Mern Stack .</div>
 
           </div>
             <div class="card-sec moovbg" >
