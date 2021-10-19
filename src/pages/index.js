@@ -35,9 +35,9 @@ const IndexPage = () => {
 <h1 class="sec-header h1">Hello, I am Moe Abraham!</h1>
 <p class="text">I am a full stack web developer who loves solving problems, curious to learn more and always exploring new ideas and concepts.<br></br>I have a very diverse professional background as well as personal.<br></br> Can always find time to chat movies, soccer & coding now </p>
 <div class="icons">
-  <div class="iconanimation">
+  {/* <div class="iconanimation">
   <a href="https://twitter.com/home"> <FontAwesomeIcon icon={faTwitter} size="2x" color="#90CDF4"/></a>
-</div>
+</div> */}
   <div class="iconanimation">
   <a href="https://github.com/moeabraham"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
 </div>
@@ -61,10 +61,10 @@ const IndexPage = () => {
       
 
       </div>
-      <div class=" mt-3 mb-3 line " style={{display:"flex"}}>
-      <hr ></hr>
+      {/* <div class=" mt-3 mb-3 line " style={{display:"flex"}}>
+      <hr ></hr> */}
 
-      </div>
+      {/* </div> */}
 <h1 class="mb-2 animate ">Projects</h1>
 
       <div class="second">
