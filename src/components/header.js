@@ -12,39 +12,34 @@ const Header = (props) => (
     <StyledHeader>
         {/* fixed-top */}
         {/* class=" navbar-expand-sm navbar-expand-lg */}
-        <nav  > 
+        <nav class="navbar navbar-expand-md  " > 
+
                 <div class="left-nav " > <h1 class="name">
                     <Link to="/">
-                        Moe Abraham
+                        Mohamed Soliman
                     </Link></h1>
                 </div>
         {/* <nav> */}
-        <div class="right-nav " >
+        {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button> */}
+ {/* collapse navbar-collapse justify-content-between " id="collapsibleNavbar" */}
+        <div class="right-nav" >
         {/* class="right-nav " */}
-            <ul >
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
-                {/* <li>
-                    <Link to="/about">About</Link>
-                </li> */}
-                {/* <li>
-                    <Link to="/projects">Projects</Link>
-                </li> */}
+            <ul class=" navbar-right">
 
-                <li>
-                    <a href="MoeResume.pdf">Resume</a>
+                <li  >
+                    <Link to="/" >Home</Link>
+                </li>
+
+                <li >
+                    <a href="MoeResume.pdf" >Resume</a>
 
                 </li>
-                {/* <li>
-                    <Link to="/blog">Blog</Link>
-                </li> */}
-                <li>
-                    <Link to="/contact">Contact Me!</Link>
+
+                <li >
+                    <Link to="/contact" >Contact Me!</Link>
                 </li>
-                {/* <li>
-                    <Link to="/tutorials">Tutorials</Link>
-                </li> */}
 
             </ul>
             </div>

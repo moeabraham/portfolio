@@ -1,16 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
 import Head from "../components/head"
-// import data from "../data/projects.json"
-// import Header from "../components/header"
 import "./index.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import {faUser, faEdit, faThumbsUp} from '@fortawesome/free-regular-svg-icons'
-// import {faListAlt, faCheckSquare} from '@fortawesome/free-regular-svg-icons'
-// import {faRedo, faShieldAlt, faGlobe, faAward, faDev,faAnchor} from '@fortawesome/free-solid-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
-import {  faGithub, faTwitter, faLinkedin,  } from '@fortawesome/free-brands-svg-icons'
-
+import {  faGithub, faLinkedin,  } from '@fortawesome/free-brands-svg-icons'
+// import Illustration from "../../static/images/example.inline.svg"
+//  import Illustration from './illustration.inline.svg'
 
 
 
@@ -32,7 +28,10 @@ const IndexPage = () => {
     
 <div class="right col-s6 " >
   <div>
-<h1 class="sec-header h1">Hello, I am Moe Abraham!</h1>
+    <div class="typewriter"> 
+<h1 class="sec-header h1">Hello, I am Mohamed Soliman!   
+</h1> 
+</div>
 <p class="text">I am a full stack web developer who loves solving problems, curious to learn more and always exploring new ideas and concepts.<br></br>I have a very diverse professional background as well as personal.<br></br> Can always find time to chat movies, soccer & coding now </p>
 <div class="icons">
   {/* <div class="iconanimation">
@@ -61,10 +60,6 @@ const IndexPage = () => {
       
 
       </div>
-      {/* <div class=" mt-3 mb-3 line " style={{display:"flex"}}>
-      <hr ></hr> */}
-
-      {/* </div> */}
 <h1 class="mb-2 animate ">Projects</h1>
 
       <div class="second">
