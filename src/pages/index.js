@@ -60,9 +60,9 @@ const IndexPage = () => {
       
 
       </div>
-<h1 class="mb-2 animate ">Projects</h1>
+<h1 class="mb-4 animate ">Projects</h1>
 
-      <div class="second">
+      <div class="second container-fluid trial ">
         <div class="row"> 
           <div class="card-sec socbg" >
               <h2>Soccer Data</h2>

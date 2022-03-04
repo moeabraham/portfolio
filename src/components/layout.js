@@ -5,8 +5,8 @@ import { graphql, useStaticQuery } from "gatsby"
 import Header from "./header"
 import Footer from "./footer"
 import Head from "./head"
-
 import "../styles/reset.css"
+// import React from 'react';
 
 import { StyledLayout } from "../styles/styled-components"
 
