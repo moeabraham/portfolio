@@ -22,6 +22,8 @@ const Head = ({  page }) => {
         <Helmet>
             <html lang="en" prefix="og:/images/scrshot.png" />
             <title> {`${page} | ${title}`}</title>
+            <meta name="image" property="og:image" content="https://moeabraham.netlify.app/images/profile.png"	 />
+
             <meta name="description" content={description} />
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
             {/* <meta name="title" property="og:title" content="[Content title here]">
@@ -29,7 +31,6 @@ const Head = ({  page }) => {
             <meta property="og:type" content="[Content type here]"> */}
 
 
-            <meta name="image" property="og:image" content="../images/scrshot.png" />
 
 
             {/* <meta name="description" property="og:description" content="[Content description here]">
