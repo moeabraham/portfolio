@@ -96,49 +96,6 @@ a {
     margin-left:0;
 
 }
-/* .name > a {
-    font-size:1.6rem;
-} */
-
-/* .right-nav{
-    display:flex;
-
-} */
-/* .left-nav{
-    display:flex;
-
-    flex-grow: 1;
-}
-a{
-    text-decoration: none;
-    color: inherit
-}
-h1{
-    margin: 0;
-    text-align:left;
-    font-family: 'Merriweather', serif;  font-family: 'Lato', sans-serif;
-
-    text-decoration: none;
-}
-nav{
-    display: flex;
-    align-items: center;
-
-} */
-/* ul{
-
-    list-style: none;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    li{
-        margin-right: 1rem;
-        margin: 0 1rem 0 0 ;
-        a{
-            font-weight:700;
-        }
-    }
-} */
 
 @media only screen and (max-width: 1055px) {
         color:black;
@@ -146,30 +103,7 @@ nav{
         font-size:1rem;
         display:flex;
 
-        /* nav{
-            display:flex;
-            width:100%;
-            font-family: 'Merriweather', serif;  font-family: 'Lato', sans-serif;
-            margin-top:2rem;
-            height:1rem;
-            align-items:center;
-        }
-        
-        .logo{
-    display:flex;
-    margin-left:auto;
-    font-size:0.6rem;
-            }
-
-.navBar{
-    display:flex;
-font-size:0.5rem;
-    margin-right:auto;
-}
-.name{
-    font-size:1rem;
-    right:0;
-} */
+       
 .name{
     font-size:0.7rem;
     margin-top: 2rem;
@@ -180,13 +114,6 @@ font-size:0.5rem;
     padding-right:0;
     padding-top:10px;
 }
-/* .second{
-    width:100vw;
-}
-.second > container-fluid{
-    width:100vw;
-} */
-
 
 
 
