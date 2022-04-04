@@ -29,7 +29,7 @@ const Head = ({  page }) => {
             <meta property="og:type" content="[Content type here]"> */}
 
 
-            <meta name="image" property="og:image" content="/images/scrshot.png" />
+            <meta name="image" property="og:image" content="../images/scrshot.png" />
 
 
             {/* <meta name="description" property="og:description" content="[Content description here]">
