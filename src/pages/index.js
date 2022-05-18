@@ -132,15 +132,15 @@ const IndexPage = () => {
 
           </div>
             <div class="card-sec moovbg" >
-                <h2>moov</h2>
+                <h2>Team Cards</h2>
                 <div class="sec-icons moovbg">
-                        <a href="https://github.com/cardioforcake/portfolio-project-moov-app" class="iconanimation"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
-                        <a href="https://cfc-moov.herokuapp.com/" class="iconanimation"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
+                        <a href="https://github.com/moeabraham/soccercards" class="iconanimation"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
+                        <a href="https://soccercards.herokuapp.com//" class="iconanimation"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
                 </div>
 
 
                 <div class="card" style={{width: "18rem"}}>
-                    <img  src="/images/proj4.png" alt="Loading..."  style={{height:"12rem"}}/>
+                    <img  src="/images/TeamCards.png" alt="Loading..."  style={{height:"12rem"}}/>
                  </div>
                  <div class="langicons">
                  <i class="devicon-python-plain"></i>
@@ -151,7 +151,6 @@ const IndexPage = () => {
                   <div> Allows the user to upload a scaled version of his new floorplan to visualize what his furniture would look like in the new space  .</div>
 
             </div>
-            
         </div>
       </div>
     </Layout>
