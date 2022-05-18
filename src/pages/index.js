@@ -148,7 +148,7 @@ const IndexPage = () => {
                  <i class="devicon-jquery-plain"></i>
                  <i class="devicon-postgresql-plain" title="Postgressql" ></i>
                   </div>
-                  <div> Allows the user to upload a scaled version of his new floorplan to visualize what his furniture would look like in the new space  .</div>
+                  <div> Allows soccer fans to build their own soccer library where they can fill it with the season's highlights, upcoming fixtures and upload images of their favorite moments. </div>
 
             </div>
         </div>
