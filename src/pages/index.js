@@ -135,7 +135,7 @@ const IndexPage = () => {
                 <h2>Team Cards</h2>
                 <div class="sec-icons moovbg">
                         <a href="https://github.com/moeabraham/soccercards" class="iconanimation"> <FontAwesomeIcon icon={faGithub} size="2x" color="#90CDF4"/></a>
-                        <a href="https://soccercards.herokuapp.com//" class="iconanimation"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
+                        <a href="https://soccercards.herokuapp.com/" class="iconanimation"> <FontAwesomeIcon icon={faGlobe} size="2x" color="#90CDF4"/></a>
                 </div>
 
 
